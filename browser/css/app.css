@@ -129,8 +129,8 @@ button, button:focus {
 }
 
 .chat-list li:hover, .chat-list li.active {
-  background-color: #DFDFDF;
-  background-image: linear-gradient(to left, #FCFCFC, #e9ecef);
+  background-color: #171717;
+  background-image: linear-gradient(to left, #242424, #2b2b2b);
 }
 
 .chat-list li .username {
@@ -168,7 +168,7 @@ button, button:focus {
   text-align: center;
   border-radius: 50%;
   background: rgb(22, 139, 249);
-  color: #fff;
+  color: rgb(43, 43, 43);
 }
 
 @media (min-width: 576px)
@@ -198,7 +198,7 @@ button, button:focus {
 }
 
 .chat-subtitle {
-  color: #666;
+  color: rgb(161, 161, 161);
   text-transform: capitalize;
   font-size: 12px;
   margin: 0;
@@ -216,8 +216,8 @@ button, button:focus {
 .messages {
   overflow: auto;
   flex: 1 1;
-  background: #efefef;
-  background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background: #242424;
+  background-image: linear-gradient(to bottom, #2c2c2c, #0c0c0c);
 }
 
 .messages .cover img {
@@ -285,7 +285,7 @@ button, button:focus {
 }
 
 .message.outward .content {
-  background: linear-gradient(to top right, #0371e7, #1888ff);
+  background: linear-gradient(to top right, #00254d, #002347);
   color: #efefef;
   font-weight: 400;
   margin-left: auto;
@@ -299,22 +299,22 @@ button, button:focus {
   float: left;
   padding: 0.5rem 0.75rem;
   max-width: 75%;
-  color: #666;
-  background-color: #FCFCFC;
+  color: rgb(175, 175, 175);
+  background-color: #242424;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 
 .message.inward .content.ig-media, .message.outward .content.ig-media {
-  background: #fff;
-  color: #666;
+  background: rgb(26, 26, 26);
+  color: rgb(173, 173, 173);
   max-width: 320px;
   padding: 0;
   overflow: hidden;
 }
 
 .message.outward .content:not(.ig-media) a.link-in-message {
-  color: white;
+  color: rgb(202, 202, 202);
 }
 
 .message.inward .content a.link-in-message, .link-in-message-summary {
@@ -380,7 +380,7 @@ button, button:focus {
   width: 100%;
   overflow-y: auto;
   bottom: 0;
-  background: white;
+  background: rgb(43, 43, 43);
   z-index: 3;
   display: none;
 }
@@ -429,7 +429,7 @@ button, button:focus {
 .unfollow-button {
   padding: 0.25rem 1rem;
   border-radius: 0.25rem;
-  background-color: #168bf9;
+  background-color: #001b35;
   color: #FFF;
 }
 
@@ -438,9 +438,9 @@ button, button:focus {
 }
 
 .view-on-ig {
-  background: rgb(22, 139, 249);
+  background: rgb(2, 45, 85);
   color: white;
-  border: 1px rgb(22, 139, 249) solid;
+  border: 1px rgb(8, 74, 136) solid;
   outline: none;
   padding: 8px;
   border-radius: 3px;
@@ -492,7 +492,7 @@ button, button:focus {
 .listStrapper {
   flex: 1 1;
   overflow-y: overlay;
-  background-color: #FCFCFC;
+  background-color: #2c2c2c;
 }
 
 @media (max-width:768px) {
@@ -518,7 +518,7 @@ button, button:focus {
 }
 
 .header {
-  background-image: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background-image: linear-gradient(to bottom, #141414, #242424);
   border-bottom: 1px solid #DFDFDF;
 }
 
